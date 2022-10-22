@@ -1,0 +1,13 @@
+SQLALCHEMY_DATABASE_URI = "postgresql:///yux"
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+PORT = 5000
+SECRET_KEY = "wfmnwef8ervk45tl4fs9vckjergk"
+ROOT = "localhost"
+
+# MAIL_SERVER = 'smtp.googlemail.com'
+# MAIL_PORT = 587
+# MAIL_USE_TLS = True
+# MAIL_USERNAME = "example@example.com"
+# MAIL_PASSWORD = "password123"
+
+TMDB_KEY = "a61d885c7dbc06ae20a361a786dcea49"
