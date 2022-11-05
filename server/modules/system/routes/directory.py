@@ -1,9 +1,9 @@
 from flask import Blueprint
-from server.modules.base.utils.json import to_json
-from server.modules.base.controllers.base import BaseController
-from server.modules.system.controllers.directory import SystemDirectoryController
+from modules.base.utils.json import to_json
+from modules.base.controllers.base import BaseController
+from modules.system.controllers.directory import SystemDirectoryController
 from flask import request
-from server.modules.system.models.directory import SystemDirectory
+from modules.system.models.directory import SystemDirectory
 
 
 blueprint = Blueprint('system_directory', __name__)

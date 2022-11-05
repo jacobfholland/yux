@@ -1,9 +1,9 @@
 from flask import Blueprint
-from server.modules.base.utils.json import to_json
-from server.modules.base.controllers.base import BaseController
-from server.modules.library.controllers.library import LibraryController
-from server.modules.library.models.library import Library
-from server.modules.system.controllers.directory import SystemDirectoryController
+from modules.base.utils.json import to_json
+from modules.base.controllers.base import BaseController
+from modules.library.controllers.library import LibraryController
+from modules.library.models.library import Library
+from modules.system.controllers.directory import SystemDirectoryController
 from flask import request
 
 

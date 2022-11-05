@@ -1,9 +1,9 @@
 import glob
 import os
-from server.modules.log.models.log import log as LOG
-from server.modules.app.app import db
-from server.modules.base.models.base import Base
-from server.modules.system.models.file import SystemFile
+from modules.log.models.log import log as LOG
+from modules.app.app import db
+from modules.base.models.base import Base
+from modules.system.models.file import SystemFile
 
 EXTENSIONS = {
     "video": ["mkv"],

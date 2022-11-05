@@ -1,4 +1,4 @@
-from server.modules.app.app import Application
+from modules.app.app import Application
 
 
 app = Application().create_app()

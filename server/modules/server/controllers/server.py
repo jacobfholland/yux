@@ -1,4 +1,4 @@
-from server.modules.base.controllers.base import BaseController
+from modules.base.controllers.base import BaseController
 from flask import current_app
 
 

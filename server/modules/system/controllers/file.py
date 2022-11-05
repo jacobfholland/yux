@@ -1,6 +1,6 @@
-from server.modules.agent.models.tmdb import TMDB
-from server.modules.base.controllers.base import BaseController
-from server.modules.system.models.file import SystemFile
+from modules.agent.models.tmdb import TMDB
+from modules.base.controllers.base import BaseController
+from modules.system.models.file import SystemFile
 
 
 class FileController(BaseController):

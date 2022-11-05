@@ -1,5 +1,5 @@
-from server.modules.app.app import db
-from server.modules.base.models.base import Base
+from modules.app.app import db
+from modules.base.models.base import Base
 
 
 class Movie(db.Model, Base):

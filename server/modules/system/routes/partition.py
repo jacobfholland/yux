@@ -1,6 +1,6 @@
 from flask import Blueprint, request
-from server.modules.base.utils.json import to_json
-from server.modules.system.controllers.partition import PartitionController
+from modules.base.utils.json import to_json
+from modules.system.controllers.partition import PartitionController
 
 blueprint = Blueprint('partition', __name__)
 partition_controller = PartitionController()

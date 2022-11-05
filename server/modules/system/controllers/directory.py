@@ -1,7 +1,7 @@
 from curses.ascii import isdigit
-from server.modules.base.controllers.base import BaseController
-from server.modules.system.models.directory import SystemDirectory
-from server.modules.log.models.log import log as LOG
+from modules.base.controllers.base import BaseController
+from modules.system.models.directory import SystemDirectory
+from modules.log.models.log import log as LOG
 
 
 class SystemDirectoryController(BaseController):

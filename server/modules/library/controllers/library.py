@@ -1,5 +1,5 @@
-from server.modules.base.controllers.base import BaseController
-from server.modules.library.models.library import Library
+from modules.base.controllers.base import BaseController
+from modules.library.models.library import Library
 
 
 class LibraryController(BaseController):

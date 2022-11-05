@@ -1,8 +1,8 @@
-from server.modules.app.app import db
+from modules.app.app import db
 from uuid import uuid4
 from datetime import datetime
 from flask import request
-from server.modules.log.models.log import log as LOG
+from modules.log.models.log import log as LOG
 
 
 class Base():

@@ -1,8 +1,8 @@
 from requests import JSONDecodeError
-from server.config.config import Config
+from config.config import Config
 import tmdbsimple as tmdb
-from server.modules.movie.models.movie import Movie
-from server.modules.log.models.log import log as LOG
+from modules.movie.models.movie import Movie
+from modules.log.models.log import log as LOG
 
 
 class TMDB():

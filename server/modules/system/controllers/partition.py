@@ -2,8 +2,8 @@ import glob
 import os
 from flask import request
 import psutil
-from server.modules.base.controllers.base import BaseController
-from server.modules.log.models.log import log as LOG
+from modules.base.controllers.base import BaseController
+from modules.log.models.log import log as LOG
 
 
 class PartitionController(BaseController):
