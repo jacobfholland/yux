@@ -1,10 +1,10 @@
-from modules.agent.models.agent import Agent
-from modules.library.models.library import Library
-from modules.server.models.server import Server
-from modules.system.models.directory import SystemDirectory
-from modules.movie.models.movie import Movie
-from app import Application
-from modules.system.models.file import SystemFile
+from server.modules.agent.models.agent import Agent
+from server.modules.library.models.library import Library
+from server.modules.server.models.server import Server
+from server.modules.system.models.directory import SystemDirectory
+from server.modules.movie.models.movie import Movie
+from server.app import Application
+from server.modules.system.models.file import SystemFile
 
 
 class BaseController():

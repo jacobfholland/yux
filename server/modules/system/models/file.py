@@ -1,7 +1,7 @@
-from modules.app.app import db
-from modules.base.models.base import Base
+from server.modules.app.app import db
+from server.modules.base.models.base import Base
 import ffmpeg
-from modules.movie.models.movie import Movie
+from server.modules.movie.models.movie import Movie
 
 
 class SystemFile(db.Model, Base):

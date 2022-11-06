@@ -1,7 +1,7 @@
 from flask import Blueprint, request
-from modules.base.utils.json import to_json
-from modules.base.controllers.base import BaseController
-from modules.movie.models.movie import Movie
+from server.modules.base.utils.json import to_json
+from server.modules.base.controllers.base import BaseController
+from server.modules.movie.models.movie import Movie
 
 
 blueprint = Blueprint('movie', __name__)

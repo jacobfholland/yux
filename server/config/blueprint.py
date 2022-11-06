@@ -1,4 +1,4 @@
-from modules.log.models.log import log as LOG
+from server.modules.log.models.log import log as LOG
 import importlib
 
 

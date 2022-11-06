@@ -1,15 +1,15 @@
-from modules.log.models.log import log as LOG
+from server.modules.log.models.log import log as LOG
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt
 from flask_mail import Mail
-from config.config import Config
+from server.config.config import Config
 from flask_session import Session
 from flask_cors import CORS
 from flask_migrate import Migrate
 from flask_login import LoginManager
 import coloredlogs
-from config.blueprint import Blueprints
+from server.config.blueprint import Blueprints
 
 
 db = SQLAlchemy()

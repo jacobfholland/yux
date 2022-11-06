@@ -1,8 +1,8 @@
-from modules.app.app import db
-from modules.base.models.base import Base
-from modules.system.models.directory import SystemDirectory
-from modules.agent.models.agent import Agent
-from modules.server.models.server import Server
+from server.modules.app.app import db
+from server.modules.base.models.base import Base
+from server.modules.system.models.directory import SystemDirectory
+from server.modules.agent.models.agent import Agent
+from server.modules.server.models.server import Server
 
 
 class Library(db.Model, Base):

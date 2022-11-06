@@ -1,8 +1,8 @@
 from flask import Blueprint, request
-from modules.base.utils.json import to_json
-from modules.base.controllers.base import BaseController
-from modules.system.controllers.file import FileController
-from modules.system.models.file import SystemFile
+from server.modules.base.utils.json import to_json
+from server.modules.base.controllers.base import BaseController
+from server.modules.system.controllers.file import FileController
+from server.modules.system.models.file import SystemFile
 
 
 blueprint = Blueprint('system_file', __name__)

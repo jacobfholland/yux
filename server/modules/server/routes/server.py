@@ -1,8 +1,8 @@
 from flask import Blueprint, request
-from modules.base.utils.json import to_json
-from modules.base.controllers.base import BaseController
-from modules.server.controllers.server import ServerController
-from modules.server.models.server import Server
+from server.modules.base.utils.json import to_json
+from server.modules.base.controllers.base import BaseController
+from server.modules.server.controllers.server import ServerController
+from server.modules.server.models.server import Server
 
 blueprint = Blueprint('server', __name__)
 obj = "server"

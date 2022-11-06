@@ -1,7 +1,7 @@
 from flask import Blueprint, request
-from modules.agent.models.agent import Agent
-from modules.base.utils.json import to_json
-from modules.base.controllers.base import BaseController
+from server.modules.agent.models.agent import Agent
+from server.modules.base.utils.json import to_json
+from server.modules.base.controllers.base import BaseController
 
 
 blueprint = Blueprint('agent', __name__)

@@ -1,6 +1,6 @@
-from modules.app.app import db
-from modules.agent.models.tmdb import TMDB
-from modules.base.models.base import Base
+from server.modules.app.app import db
+from server.modules.agent.models.tmdb import TMDB
+from server.modules.base.models.base import Base
 
 
 AGENTS = [
